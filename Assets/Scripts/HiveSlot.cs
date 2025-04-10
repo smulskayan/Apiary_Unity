@@ -2,31 +2,37 @@ using UnityEngine;
 
 public class HiveSlot : MonoBehaviour
 {
-    public bool isOccupied = false;
-    private SpriteRenderer sr;
-    private Color defaultColor;
-    private Color targetColor;
+    public bool isOccupied = false;  // Проверка, занят ли слот
+    private SpriteRenderer sr;       // Для изменения цвета
+    private Color defaultColor;      // Исходный цвет
+    private Color highlightColor = Color.yellow;  // Цвет подсветки
 
-    private bool isNearPlayer = false;
+    private bool isNearPlayer = false;  // Определяет, рядом ли игрок
 
     void Start()
     {
-        sr = GetComponent<SpriteRenderer>();
-        defaultColor = sr.color;
-        targetColor = defaultColor;
+        sr = GetComponent<SpriteRenderer>();  // Получаем компонент SpriteRenderer
+        defaultColor = sr.color;  // Сохраняем исходный цвет слота
     }
 
     void Update()
     {
-        sr.color = Color.Lerp(sr.color, targetColor, 5f * Time.deltaTime);
+        // Если игрок рядом и слот не занят, меняем цвет на жёлтый
+        if (isNearPlayer && !isOccupied)
+        {
+            sr.color = highlightColor;  // Подсвечиваем слот
+        }
+        else
+        {
+            sr.color = defaultColor;  // Восстанавливаем исходный цвет
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !isOccupied)
         {
-            isNearPlayer = true;
-            HighlightNearestSlot();
+            isNearPlayer = true;  // Игрок рядом
         }
     }
 
@@ -34,32 +40,7 @@ public class HiveSlot : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            isNearPlayer = false;
-            targetColor = defaultColor;
-        }
-    }
-
-    void HighlightNearestSlot()
-    {
-        HiveSlot[] allSlots = FindObjectsOfType<HiveSlot>();
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-
-        HiveSlot nearest = null;
-        float minDist = float.MaxValue;
-
-        foreach (HiveSlot slot in allSlots)
-        {
-            float dist = Vector2.Distance(slot.transform.position, player.transform.position);
-            if (!slot.isOccupied && dist < minDist)
-            {
-                minDist = dist;
-                nearest = slot;
-            }
-        }
-
-        foreach (HiveSlot slot in allSlots)
-        {
-            slot.targetColor = (slot == nearest) ? Color.yellow : slot.defaultColor;
+            isNearPlayer = false;  // Игрок покидает слот
         }
     }
 }

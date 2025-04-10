@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class HiveManager : MonoBehaviour
 {
-    public GameObject beehivePrefab;
-    public float placementRange = 2f;
-    private GameObject player;
+    public GameObject beehivePrefab;  // Префаб улья
+    public float placementRange = 2f; // Дистанция до слота
+    private GameObject player;        // Игрок (медведь)
 
     void Start()
     {
