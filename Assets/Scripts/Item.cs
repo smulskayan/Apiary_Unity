@@ -13,7 +13,7 @@ public class Item
     public int lvlWhenUnlock;
     public float timeToGrow;
 
-    public Item(string name, string imgUrl, int count, int type, int price, int lvlWhenUnlock)
+    public Item(string name, string imgUrl, int count, int type, int price, int lvlWhenUnlock, float timeToGrow)
     {
         this.name = name;
         this.imgUrl = imgUrl;
@@ -21,5 +21,6 @@ public class Item
         this.type = type;
         this.price = price;
         this.lvlWhenUnlock = lvlWhenUnlock;
+        this.timeToGrow = timeToGrow;
     }
 }
