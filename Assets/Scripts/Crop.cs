@@ -108,29 +108,23 @@ public class Crop : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Crop[] allCrops = FindObjectsOfType<Crop>();
-        foreach (Crop crop in allCrops)
+        if (step != STEP_GROWS)
         {
-            if (step != STEP_GROWS)
+            if (Vector2.Distance(this.transform.position, player.transform.position) < 2f)
             {
-                Debug.Log("Player position: " + player.transform.position);
-                Debug.Log("Crop position: " + this.transform.position);
-                if (Vector2.Distance(this.transform.position, player.transform.position) < 2f)
-                {
-                    readyForAction = true;
-                    cropSpriteRenderer.sprite = Resources.Load<Sprite>("cropSelected");
-                }
-                else
-                {
-                    readyForAction = false;
-                    cropSpriteRenderer.sprite = Resources.Load<Sprite>("crop");
-                }
+                readyForAction = true;
+                cropSpriteRenderer.sprite = Resources.Load<Sprite>("cropSelected");
             }
             else
             {
+                readyForAction = false;
                 cropSpriteRenderer.sprite = Resources.Load<Sprite>("crop");
             }
-        } 
+        }
+        else
+        {
+            cropSpriteRenderer.sprite = Resources.Load<Sprite>("crop");
+        }
     }
 
 }
