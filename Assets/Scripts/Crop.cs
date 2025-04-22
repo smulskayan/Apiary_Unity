@@ -8,12 +8,13 @@ public class Crop : MonoBehaviour
     private int STEP_GROWS = 1;
     private int STEP_READY_FLOWER = 2;
     private int STEP_READY_NECTAR = 3;
-    private int STEP_PLOW = 4;
+    private int STEP_WANT_WATERING = 4;
 
     private SpriteRenderer seedSpriteRenderer;
     private SpriteRenderer flowerSpriteRenderer;
     private SpriteRenderer nectarSpriteRenderer;
     private SpriteRenderer cropSpriteRenderer;
+    private SpriteRenderer waterSpriteRenderer;
 
     private Item cropItem;
     private int step = 0;
@@ -26,6 +27,7 @@ public class Crop : MonoBehaviour
         seedSpriteRenderer = GetComponentsInChildren<SpriteRenderer>()[2];
         flowerSpriteRenderer = GetComponentsInChildren<SpriteRenderer>()[1];
         nectarSpriteRenderer = GetComponentsInChildren<SpriteRenderer>()[3];
+        waterSpriteRenderer = GetComponentsInChildren<SpriteRenderer>()[4];
 
         player = GameObject.FindWithTag("Player");
     }
@@ -57,10 +59,20 @@ public class Crop : MonoBehaviour
                 step = STEP_GROWS;
                 StartCoroutine(createNectar());
             }
-            else if (step == STEP_READY_NECTAR) {
-                nectarSpriteRenderer.sprite = Resources.Load<Sprite>("empty");
-            }   
+            else if (step == STEP_WANT_WATERING) 
+            {
+                waterSpriteRenderer.sprite = Resources.Load<Sprite>("water");
+                StartCoroutine(watringGround());
+            }
         }
+    }
+
+    void OnMouseDown() {
+        if (step == STEP_READY_NECTAR) {
+            step = STEP_GROWS;
+            nectarSpriteRenderer.sprite = Resources.Load<Sprite>("empty");
+            StartCoroutine(dryGround());
+        }   
     }
 
     private IEnumerator grow()
@@ -70,15 +82,28 @@ public class Crop : MonoBehaviour
         flowerSpriteRenderer.sprite = Resources.Load<Sprite>(cropItem.imgUrl);
 
         step = STEP_READY_FLOWER;
-        // OnStepReady();
     }
 
     private IEnumerator createNectar()
     {
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(5f);
         nectarSpriteRenderer.sprite = Resources.Load<Sprite>("nectar");
         step = STEP_READY_NECTAR;
-        // OnStepReady();
+    }
+
+    private IEnumerator dryGround()
+    {
+        yield return new WaitForSeconds(5f);
+        flowerSpriteRenderer.sprite = Resources.Load<Sprite>("flower_dead");
+        step = STEP_WANT_WATERING;
+    }
+
+    private IEnumerator watringGround()
+    {
+        yield return new WaitForSeconds(5f);
+        flowerSpriteRenderer.sprite = Resources.Load<Sprite>(cropItem.imgUrl);
+        waterSpriteRenderer.sprite = Resources.Load<Sprite>("empty");
+        step = STEP_READY_FLOWER;
     }
 
     private void FixedUpdate()
