@@ -34,10 +34,7 @@ public class Crop : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            TryPlaceCrop();
-        }
+        if (Input.GetKeyDown(KeyCode.E)) TryPlaceCrop();
     }
 
     void TryPlaceCrop() {

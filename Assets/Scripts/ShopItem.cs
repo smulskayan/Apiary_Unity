@@ -15,7 +15,7 @@ public class ShopItem : MonoBehaviour
     void Start()
     {
         price = GetComponentsInChildren<Text>()[0];
-        productImage = GetComponentsInChildren<Image>()[0];
+        productImage = GetComponentsInChildren<Image>()[1];
 
         // lvlText = GetComponentsInChildren<Text>()[1];
         // lvlImage = GetComponentsInChildren<Image>()[2];

@@ -14,11 +14,14 @@ public class Stall : MonoBehaviour
     }
 
     void Update() {
-
+        if (Input.GetKeyDown(KeyCode.E)) 
+        {
+            TryPlaceShop();
+        }
     }
 
-    void OnMouseDown() {
-        if (allowClick) 
+    void TryPlaceShop() {
+        if (allowClick)
         {
             inventory.GetComponent<Menu>().openShop();
         }
