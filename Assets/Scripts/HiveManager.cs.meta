@@ -1,2 +1,13 @@
 fileFormatVersion: 2
 guid: c83bb1dfc775ee54fb831b8d5587119a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - beehivePrefab: {fileID: 5382438245450169424, guid: 76e04d518e383ac4a84cfa639299451d,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

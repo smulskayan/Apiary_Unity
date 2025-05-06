@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: fb5c249054e2d7e40abdef1491463eff
+guid: 30258eef0d221f94d984c6c0737fb3bb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3046817259674528574
-    second: store_0
+      213: 1193432805600821199
+    second: TalkIcon_0
+  - first:
+      213: -4281181746446568479
+    second: TalkIcon_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: store_0
+      name: TalkIcon_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 52
-        width: 453
-        height: 404
+        x: 0
+        y: 0
+        width: 54
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3bed6aa728784a20800000000000000
-      internalID: 3046817259674528574
+      spriteID: fcf722940dcef8010800000000000000
+      internalID: 1193432805600821199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TalkIcon_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 21
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e37a2062ef2694c0800000000000000
+      internalID: -4281181746446568479
       vertices: []
       indices: 
       edges: []

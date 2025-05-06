@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d4f02353ee7054d46822fd1becfbe39c
+guid: 5e77e6cc6294a4a44943c57846a56ca4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2410195054550470783
-    second: hive5_0
+      213: -8818784453889265520
+    second: Bear2 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hive5_0
+      name: Bear2 1_0
       rect:
         serializedVersion: 2
-        x: 119
-        y: 69
-        width: 402
-        height: 492
+        x: 169
+        y: 0
+        width: 292
+        height: 611
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18fad1e1e544d8ed0800000000000000
-      internalID: -2410195054550470783
+      spriteID: 090713b53426d9580800000000000000
+      internalID: -8818784453889265520
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      hive5_0: -2410195054550470783
+      Bear2 1_0: -8818784453889265520
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
