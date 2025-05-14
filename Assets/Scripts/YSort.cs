@@ -14,8 +14,11 @@ public class YSort : MonoBehaviour
 
     void LateUpdate()
     {
-        // ÷ентр сортировки Ч по позиции камеры
-        float relativeY = transform.position.y - mainCam.transform.position.y;
-        sr.sortingOrder = -(int)(relativeY * 100);
+        if (GetComponent<CanvasRenderer>() == null)
+        {
+            // ÷ентр сортировки Ч по позиции камеры
+            float relativeY = transform.position.y - mainCam.transform.position.y;
+            sr.sortingOrder = -(int)(relativeY * 100);
+        }
     }
 }

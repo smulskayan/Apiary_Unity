@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7300711483517614335}
   - component: {fileID: 4361481620152758233}
-  - component: {fileID: -2076252955015673665}
+  - component: {fileID: 8382927210908909144}
+  - component: {fileID: -939066987623732589}
   m_Layer: 0
   m_Name: Bee
   m_TagString: Untagged
@@ -89,7 +90,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-2076252955015673665
+--- !u!61 &8382927210908909144
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4524570885988808016}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2, y: 3.01}
+    newSize: {x: 3.2, y: 3.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.2, y: 3.01}
+  m_EdgeRadius: 0
+--- !u!114 &-939066987623732589
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -98,6 +145,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4524570885988808016}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9feca8cd1e53d1c409773d0d047d3b16, type: 3}
+  m_Script: {fileID: 11500000, guid: bea19c97a2e2e954ab51f21b6e3833f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hive: {fileID: 0}
+  spawnPoint: {fileID: 0}
+  flightTime: 10
+  waitBeforeFlight: 2
+  maxFlightRadius: 10
+  speed: 3

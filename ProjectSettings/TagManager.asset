@@ -6,11 +6,16 @@ TagManager:
   tags:
   - StoragePanel
   - Flower
+  - Bee
+  - Hive
+  - StorageTrigger
+  - TriggerZone
+  - Storage
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 
@@ -54,6 +59,9 @@ TagManager:
     locked: 0
   - name: Bee
     uniqueID: 3521988067
+    locked: 0
+  - name: UI
+    uniqueID: 281498947
     locked: 0
   m_RenderingLayers:
   - Default

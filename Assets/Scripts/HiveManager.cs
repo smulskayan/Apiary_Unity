@@ -4,6 +4,8 @@ public class HiveManager : MonoBehaviour
 {
     public GameObject beehivePrefab;  // Префаб улья
     public float placementRange = 2f; // Дистанция до слота
+    public Vector3 placementOffset = new Vector3(0, 0.5f, 0); // Смещение вверх
+
     private GameObject player;        // Игрок (медведь)
 
     void Start()
@@ -37,7 +39,8 @@ public class HiveManager : MonoBehaviour
 
         if (nearest != null)
         {
-            Instantiate(beehivePrefab, nearest.transform.position, Quaternion.identity);
+            Vector3 spawnPosition = nearest.transform.position + placementOffset;
+            Instantiate(beehivePrefab, spawnPosition, Quaternion.identity);
             nearest.isOccupied = true;
         }
     }
