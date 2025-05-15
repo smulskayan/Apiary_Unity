@@ -38,7 +38,7 @@ public class Shop : MonoBehaviour
     {
         yield return new WaitForSeconds(0.3f);
         for (int i = 0; i < allItems.Count; i++)
-        {
+        {            
             allItems[i].UpdateItem(allProductList[i], moneyText);
         }
     }

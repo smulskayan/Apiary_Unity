@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 71334b651b7ec0a479fc07a31d08dc73
+guid: 2587e7b4ecf885a42af7bd69e635a5f2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8902764129226356341
-    second: seeds_0
+      213: 5513960282230951434
+    second: jar_honey_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: seeds_0
+      name: jar_honey_0
       rect:
         serializedVersion: 2
-        x: 58
-        y: 48
-        width: 78
-        height: 130
+        x: 262
+        y: 123
+        width: 499
+        height: 733
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 57670a18ec8fc8b70800000000000000
-      internalID: 8902764129226356341
+      spriteID: a0e0df799a5858c40800000000000000
+      internalID: 5513960282230951434
       vertices: []
       indices: 
       edges: []

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4212fa9d3d0b8904caad44bdee8c8a08
+guid: a5952f6e809154942ab1248597a077a3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8509550459451208454
-    second: water_0
+      213: 5280897896942094492
+    second: crop_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: water_0
+      name: crop_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 626
-        height: 248
+        width: 113
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 603f9ddae0ff71670800000000000000
-      internalID: 8509550459451208454
+      spriteID: c98475a68a4894940800000000000000
+      internalID: 5280897896942094492
       vertices: []
       indices: 
       edges: []

@@ -46,7 +46,7 @@ public class ShopItem : MonoBehaviour
             this.moneyText = moneyText;
             // lvlImage.enabled = false;
             // lvlText.enabled = false;
-
+            
             productImage.sprite = Resources.Load<Sprite>(item.imgUrl);
             price.text = item.price + "$";
             GetComponent<Button>().onClick.RemoveAllListeners();

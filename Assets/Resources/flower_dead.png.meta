@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 308b1eeea40fadb459512d9e779a0a0a
+guid: b00b7b9c821760246942c2e5dd056cd3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1163505995964651993
-    second: ShopEmpty_0
+      213: 162272515887440434
+    second: flower_dead_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ShopEmpty_0
+      name: flower_dead_0
       rect:
         serializedVersion: 2
-        x: 75
-        y: 128
-        width: 661
-        height: 612
+        x: 356
+        y: 0
+        width: 568
+        height: 700
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7266d7016756adfe0800000000000000
-      internalID: -1163505995964651993
+      spriteID: 232a7425ef1804200800000000000000
+      internalID: 162272515887440434
       vertices: []
       indices: 
       edges: []

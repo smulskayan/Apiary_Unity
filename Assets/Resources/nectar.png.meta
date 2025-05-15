@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7299ef21be9fcc94ea5a554931732572
+guid: 177914d8154b2a64c9f0bff156c12d49
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 162272515887440434
-    second: flower_dead_0
+      213: 1366525270363938774
+    second: nectar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flower_dead_0
+      name: nectar_0
       rect:
         serializedVersion: 2
-        x: 356
-        y: 0
-        width: 568
-        height: 700
+        x: 137
+        y: 186
+        width: 474
+        height: 362
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 232a7425ef1804200800000000000000
-      internalID: 162272515887440434
+      spriteID: 6df13a44e7fd6f210800000000000000
+      internalID: 1366525270363938774
       vertices: []
       indices: 
       edges: []
