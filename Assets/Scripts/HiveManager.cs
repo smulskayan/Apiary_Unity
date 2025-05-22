@@ -42,6 +42,13 @@ public class HiveManager : MonoBehaviour
             Vector3 spawnPosition = nearest.transform.position + placementOffset;
             Instantiate(beehivePrefab, spawnPosition, Quaternion.identity);
             nearest.isOccupied = true;
+
+            //  Добавление 3 XP за установку улья
+            XPManager xp = FindObjectOfType<XPManager>();
+            if (xp != null)
+            {
+                xp.AddXP(3);
+            }
         }
     }
 }
