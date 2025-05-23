@@ -38,6 +38,7 @@ public class Crop : MonoBehaviour
     }
 
     void TryPlaceCrop() {
+        Item item_seed = Player.getHandItem();
         Item item = new Item("flower", "flower", 1, Item.TYPEPFOOD, 10, 1, 5f);
 
         if (readyForAction)
@@ -45,16 +46,21 @@ public class Crop : MonoBehaviour
             if (step == STEP_EMPTY) 
             {
                 if (item.type == Item.TYPEPFOOD) {
-                    step = STEP_GROWS;
-                    cropItem = item;
-                    seedSpriteRenderer.sprite = Resources.Load<Sprite>("seeds");
-                    StartCoroutine(grow());
+                    if (item_seed.count != 0) {
+                        step = STEP_GROWS;
+                        cropItem = item;
+                        seedSpriteRenderer.sprite = Resources.Load<Sprite>("seeds");
+                        item_seed.count = -1;
+                        Player.checkIfItemExists(item_seed);
+                        Player.removeItem();
+                        StartCoroutine(grow());
+                    } 
                 }
             }
             else if (step == STEP_READY_FLOWER)
             {
                 step = STEP_GROWS;
-                StartCoroutine(createNectar());
+                StartCoroutine(createNectar());                
             }
             else if (step == STEP_WANT_WATERING) 
             {
@@ -65,8 +71,11 @@ public class Crop : MonoBehaviour
     }
 
     void OnMouseDown() {
+        Item item_nectar = new Item("nectar", "nectar", 1, Item.TYPEPFOOD, 10, 1, 2f);
         if (step == STEP_READY_NECTAR) {
             step = STEP_GROWS;
+            item_nectar.count = 1;
+            Player.checkIfItemExists(item_nectar);
             nectarSpriteRenderer.sprite = Resources.Load<Sprite>("empty");
             StartCoroutine(dryGround());
         }   
@@ -83,7 +92,7 @@ public class Crop : MonoBehaviour
 
     private IEnumerator createNectar()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(2f);
         nectarSpriteRenderer.sprite = Resources.Load<Sprite>("nectar");
         step = STEP_READY_NECTAR;
     }

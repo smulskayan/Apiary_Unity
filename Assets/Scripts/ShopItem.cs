@@ -25,7 +25,7 @@ public class ShopItem : MonoBehaviour
     {
         if (Player.money >= item.price)
         {
-            // Player.checkIfItemExists(item);
+            Player.checkIfItemExists(item);
             Player.money -= item.price;
             moneyText.text = Player.money + "$";
         }
