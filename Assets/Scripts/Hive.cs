@@ -4,12 +4,12 @@ using System.Collections;
 public class Hive : MonoBehaviour
 {
     public GameObject beePrefab;
-    [SerializeField] private GameObject honeyIcon; // Объект картинки мёда
+    [SerializeField] private GameObject honeyIcon; // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
     private int maxBees = 3;
     private int currentBees = 0;
-    [SerializeField] private bool hasHoney = false; // Флаг наличия мёда
-    private float honeyProductionTime = 5f; // Время производства мёда (30 секунд)
-    private bool playerInRange = false; // Флаг нахождения медведя рядом
+    [SerializeField] private bool hasHoney = false; // пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
+    private float honeyProductionTime = 5f; // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ (30 пїЅпїЅпїЅпїЅпїЅпїЅ)
+    private bool playerInRange = false; // пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 
     void Start()
     {
@@ -21,14 +21,14 @@ public class Hive : MonoBehaviour
         {
             Debug.LogWarning("HoneyIcon not assigned in " + gameObject.name);
         }
-        UpdateHoneyIcon(); // Устанавливаем начальное состояние иконки мёда
+        UpdateHoneyIcon(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
 
         Crop.OnNectarReady += SpawnBee;
     }
 
     void Update()
     {
-        // Проверка нажатия клавиши E для сбора мёда
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ E пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
         if (playerInRange && hasHoney && Input.GetKeyDown(KeyCode.E))
         {
             CollectHoney();
@@ -43,7 +43,7 @@ public class Hive : MonoBehaviour
 
     void OnValidate()
     {
-        // Обновляем иконку мёда при изменении hasHoney в инспекторе
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ hasHoney пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         UpdateHoneyIcon();
     }
 
@@ -90,7 +90,7 @@ public class Hive : MonoBehaviour
         XPManager xp = FindObjectOfType<XPManager>();
         if (xp != null)
         {
-            xp.AddXP(3); // +3 XP за сбор нектара
+            xp.AddXP(3); // +3 XP пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         }
     }
 
@@ -98,31 +98,37 @@ public class Hive : MonoBehaviour
     {
         yield return new WaitForSeconds(honeyProductionTime);
         hasHoney = true;
-        UpdateHoneyIcon(); // Обновляем иконку мёда
-        Debug.Log("Мёд заспавнился в улье " + gameObject.name);
+        UpdateHoneyIcon(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
+        Debug.Log("МёпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ " + gameObject.name);
     }
 
     public void CollectHoney()
     {
+        Item item_honey = new Item("jarHoney", "jarHoney", 1, Item.TYPEPFOOD, 10, 1, 2f);
+        Item item_nectar = new Item("nectar", "nectar", 1, Item.TYPEPFOOD, 10, 1, 5f);
         if (hasHoney)
         {
             hasHoney = false;
             Storage storage = FindObjectOfType<Storage>();
             if (storage != null)
             {
-                storage.AddHoney(1); // Добавляем 1 единицу мёда на склад
+                storage.AddHoney(1); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+                item_nectar.count = -1;
+                Player.checkIfItemExists(item_nectar);
                 Debug.Log("Honey collected and added to storage");
             }
             else
             {
                 Debug.LogWarning("Storage not found in scene");
             }
-            UpdateHoneyIcon(); // Обновляем иконку мёда
+            UpdateHoneyIcon(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
             XPManager xp = FindObjectOfType<XPManager>();
             if (xp != null)
             {
-                xp.AddXP(1); // +4 XP за сбор мёда
+                xp.AddXP(1); // +4 XP пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
             }
+            item_honey.count = 1;
+            Player.checkIfItemExists(item_honey);
         }
         else
         {

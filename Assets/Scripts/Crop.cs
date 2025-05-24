@@ -42,6 +42,7 @@ public class Crop : MonoBehaviour
 
     void TryPlaceCrop() {
         Item item_seed = Player.getHandItem();
+        Item item = new Item("flower", "flower", 1, Item.TYPEPFOOD, 10, 1, 5f);
 
         if (readyForAction)
         {
@@ -52,15 +53,18 @@ public class Crop : MonoBehaviour
                         step = STEP_GROWS;
                         cropItem = item;
                         seedSpriteRenderer.sprite = Resources.Load<Sprite>("seeds");
+
                         item_seed.count = -1;
                         Player.checkIfItemExists(item_seed);
                         Player.removeItem();
+
                         StartCoroutine(grow());
-                        XPManager xp = FindObjectOfType<XPManager>();
-                        if (xp != null)
-                        {
-                            xp.AddXP(3); // +3 XP за посадку
-                        }
+                        Player.flower_count++; // Увеличиваем кол-во цветов
+                        Player.flower_count_live++; // Увеличиваем кол-во живых цветов
+                        Debug.Log("flow" + Player.flower_count);
+
+                        XPWaterManager xp = FindObjectOfType<XPWaterManager>(); // Обновляем состояние влажности почвы
+                        if (xp != null) xp.UpdateXPBar();
                     } 
                 }
             }
@@ -83,9 +87,9 @@ public class Crop : MonoBehaviour
         if (step == STEP_READY_NECTAR)
         {
             step = STEP_GROWS;
+            nectarSpriteRenderer.sprite = Resources.Load<Sprite>("empty");
             item_nectar.count = 1;
             Player.checkIfItemExists(item_nectar);
-            nectarSpriteRenderer.sprite = Resources.Load<Sprite>("empty");
             StartCoroutine(dryGround());
         }
     }
@@ -111,6 +115,9 @@ public class Crop : MonoBehaviour
         yield return new WaitForSeconds(5f);
         flowerSpriteRenderer.sprite = Resources.Load<Sprite>("flower_dead");
         step = STEP_WANT_WATERING;
+        Player.flower_count_live--; // Уменьшаем кол-во живых цветов
+        XPWaterManager xp = FindObjectOfType<XPWaterManager>(); // Обновляем состояние влажности почвы
+        if (xp != null) xp.UpdateXPBar();
     }
 
     private IEnumerator watringGround()
@@ -119,6 +126,10 @@ public class Crop : MonoBehaviour
         flowerSpriteRenderer.sprite = Resources.Load<Sprite>(cropItem.imgUrl);
         waterSpriteRenderer.sprite = Resources.Load<Sprite>("empty");
         step = STEP_READY_FLOWER;
+        
+        Player.flower_count_live++; // Увеличиваем кол-во живых цветов
+        XPWaterManager xp = FindObjectOfType<XPWaterManager>(); // Обновляем состояние влажности почвы
+        if (xp != null) xp.UpdateXPBar();
     }
 
     private void FixedUpdate()

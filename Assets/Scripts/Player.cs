@@ -5,6 +5,8 @@ public class Player : MonoBehaviour
 {
     public static List<Item> items = new List<Item>();
     public static int money = 200;
+    public static int flower_count = 0;
+    public static int flower_count_live = 0;
 
     void Start()
     {
@@ -19,8 +21,7 @@ public class Player : MonoBehaviour
     }
 
     void Update()
-    {
-        
+    {  
     }
 
     public static Item getHandItem()

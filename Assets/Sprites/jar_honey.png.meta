@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 944c6b279c6fefa4e954df245a81bc20
+guid: c88c5563b9a22124caa9598c1e1904c5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1052361194043394183
-    second: water_menu_0
+      213: 5513960282230951434
+    second: jar_honey_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: water_menu_0
+      name: jar_honey_0
       rect:
         serializedVersion: 2
-        x: 251
-        y: 263
-        width: 590
-        height: 842
+        x: 262
+        y: 123
+        width: 499
+        height: 733
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 788cc5a2eecba9e00800000000000000
-      internalID: 1052361194043394183
+      spriteID: a0e0df799a5858c40800000000000000
+      internalID: 5513960282230951434
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      water_menu_0: 1052361194043394183
+      jar_honey_0: 5513960282230951434
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
