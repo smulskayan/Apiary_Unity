@@ -6,6 +6,8 @@ public class Crop : MonoBehaviour
 {
     public static event Action<Crop> OnNectarReady; // Событие появления нектара
 
+    [SerializeField] private CropTimer cropTimer;
+
     private int STEP_EMPTY = 0;
     private int STEP_GROWS = 1;
     private int STEP_READY_FLOWER = 2;
@@ -61,7 +63,6 @@ public class Crop : MonoBehaviour
                         StartCoroutine(grow());
                         Player.flower_count++; // Увеличиваем кол-во цветов
                         Player.flower_count_live++; // Увеличиваем кол-во живых цветов
-                        Debug.Log("flow" + Player.flower_count);
 
                         XPWaterManager xp = FindObjectOfType<XPWaterManager>(); // Обновляем состояние влажности почвы
                         if (xp != null) xp.UpdateXPBar();
@@ -96,15 +97,18 @@ public class Crop : MonoBehaviour
 
     private IEnumerator grow()
     {
+        if (cropTimer != null) cropTimer.StartTimer(this, cropItem.timeToGrow);
         yield return new WaitForSeconds(cropItem.timeToGrow);
         seedSpriteRenderer.sprite = Resources.Load<Sprite>("empty");
         flowerSpriteRenderer.sprite = Resources.Load<Sprite>(cropItem.imgUrl);
         step = STEP_READY_FLOWER;
     }
 
-    private IEnumerator createNectar()
+    private IEnumerator createNectar() 
     {
-        yield return new WaitForSeconds(2f);
+        float timeToCreateNectar = 3f;
+        if (cropTimer != null) cropTimer.StartTimer(this, timeToCreateNectar);
+        yield return new WaitForSeconds(timeToCreateNectar);
         nectarSpriteRenderer.sprite = Resources.Load<Sprite>("nectar");
         step = STEP_READY_NECTAR;
         OnNectarReady?.Invoke(this); // Уведомляем о появлении нектара
@@ -112,7 +116,8 @@ public class Crop : MonoBehaviour
 
     private IEnumerator dryGround()
     {
-        yield return new WaitForSeconds(5f);
+        float timeToDryGround = 5f;
+        yield return new WaitForSeconds(timeToDryGround);
         flowerSpriteRenderer.sprite = Resources.Load<Sprite>("flower_dead");
         step = STEP_WANT_WATERING;
         Player.flower_count_live--; // Уменьшаем кол-во живых цветов
@@ -122,7 +127,9 @@ public class Crop : MonoBehaviour
 
     private IEnumerator watringGround()
     {
-        yield return new WaitForSeconds(5f);
+        float timeToWateringGround = 5f;
+        if (cropTimer != null) cropTimer.StartTimer(this, timeToWateringGround);
+        yield return new WaitForSeconds(timeToWateringGround);
         flowerSpriteRenderer.sprite = Resources.Load<Sprite>(cropItem.imgUrl);
         waterSpriteRenderer.sprite = Resources.Load<Sprite>("empty");
         step = STEP_READY_FLOWER;
