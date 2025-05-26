@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class HiveManager : MonoBehaviour
 {
-    public GameObject beehivePrefab;  // Префаб улья
-    public float placementRange = 2f; // Дистанция до слота
-    public Vector3 placementOffset = new Vector3(0, 0.5f, 0); // Смещение вверх
+    public GameObject beehivePrefab;
+    public float placementRange = 2f;
+    public Vector3 placementOffset = new Vector3(0, 0.5f, 0);
 
-    private GameObject player;        // Игрок (медведь)
+    private GameObject player;
 
     void Start()
     {
@@ -43,7 +43,6 @@ public class HiveManager : MonoBehaviour
             Instantiate(beehivePrefab, spawnPosition, Quaternion.identity);
             nearest.isOccupied = true;
 
-            //  Добавление 3 XP за установку улья
             XPManager xp = FindObjectOfType<XPManager>();
             if (xp != null)
             {

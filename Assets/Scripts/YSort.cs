@@ -16,7 +16,6 @@ public class YSort : MonoBehaviour
     {
         if (GetComponent<CanvasRenderer>() == null)
         {
-            // ÷ентр сортировки Ч по позиции камеры
             float relativeY = transform.position.y - mainCam.transform.position.y;
             sr.sortingOrder = -(int)(relativeY * 100);
         }

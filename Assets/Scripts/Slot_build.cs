@@ -8,13 +8,7 @@ public class Slot_build : MonoBehaviour
     private Image slotImage;
     private Image itemImage;
     private Text countText;
-
     private int id;
-
-    void Start()
-    {
-        
-    }
 
     public void fillSlot(int id)
     {

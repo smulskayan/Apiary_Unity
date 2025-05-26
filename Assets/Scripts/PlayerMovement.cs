@@ -5,14 +5,14 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 3f;
     private Rigidbody2D rb;
     private Vector2 moveInput;
-    private Animator animator; // Ссылка на Animator
-    private SpriteRenderer spriteRenderer; // Ссылка на SpriteRenderer
+    private Animator animator;
+    private SpriteRenderer spriteRenderer;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>(); // Получаем SpriteRenderer
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -20,13 +20,11 @@ public class PlayerMovement : MonoBehaviour
         moveInput.x = Input.GetAxisRaw("Horizontal");
         moveInput.y = Input.GetAxisRaw("Vertical");
 
-        // Устанавливаем параметр Speed для анимаций
         animator.SetFloat("Speed", moveInput.magnitude);
 
-        // Зеркальное отображение спрайта
-        if (moveInput.x != 0) // Изменяем направление только при движении
+        if (moveInput.x != 0)
         {
-            spriteRenderer.flipX = moveInput.x < 0; // Влево: flipX = true, вправо: flipX = false
+            spriteRenderer.flipX = moveInput.x < 0;
         }
     }
 

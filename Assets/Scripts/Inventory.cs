@@ -8,10 +8,6 @@ public class Inventory : MonoBehaviour
     private List<Slot_build> slots = new List<Slot_build>();
     private RectTransform barRectTransform;
 
-    void Start()
-    {
-    }
-
     void Update() 
     {
         slots = GetComponentsInChildren<Slot_build>().ToList();

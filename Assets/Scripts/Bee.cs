@@ -24,19 +24,11 @@ public class Bee : MonoBehaviour
         {
             spriteRenderer.sortingOrder = 10;
         }
-        else
-        {
-            Debug.LogError("SpriteRenderer missing on Bee", this);
-        }
 
         animator = GetComponent<Animator>();
         if (animator != null)
         {
             animator.Play("BeeFly");
-        }
-        else
-        {
-            Debug.LogWarning("Animator component missing on Bee");
         }
 
         lastPosition = transform.position;
@@ -44,18 +36,14 @@ public class Bee : MonoBehaviour
 
     void Update()
     {
-        // Вычисляем направление на основе текущей цели
         Vector2 direction = Vector2.zero;
-        if (state == BeeState.MovingToFlower && targetFlower != null)
-        {
+        if (state == BeeState.MovingToFlower && targetFlower != null) {
             direction = (targetFlower.position - transform.position).normalized;
         }
-        else if (state == BeeState.ReturningToHive && hive != null)
-        {
+        else if (state == BeeState.ReturningToHive && hive != null) {
             direction = (hive.position - transform.position).normalized;
         }
 
-        // Обновляем зеркальное отражение
         UpdateSpriteFlip(direction);
 
         switch (state)
@@ -102,7 +90,7 @@ public class Bee : MonoBehaviour
                         Destroy(gameObject);
                     }
                 }
-                else
+                else 
                 {
                     Destroy(gameObject);
                 }
@@ -121,21 +109,12 @@ public class Bee : MonoBehaviour
     {
         if (spriteRenderer != null)
         {
-            // Логируем направление для отладки
-            Debug.Log($"Bee direction: x={direction.x}, current flipX={spriteRenderer.flipX}", this);
-
-            if (direction.x < -0.01f) // Небольшой порог для исключения мелких колебаний
-            {
-                spriteRenderer.flipX = true; // Смотрим влево
+            if (direction.x < -0.01f) {
+                spriteRenderer.flipX = true;
             }
-            else if (direction.x > 0.01f)
-            {
-                spriteRenderer.flipX = false; // Смотрим вправо
+            else if (direction.x > 0.01f) {
+                spriteRenderer.flipX = false;
             }
-        }
-        else
-        {
-            Debug.LogError("SpriteRenderer is null in UpdateSpriteFlip", this);
         }
     }
 }

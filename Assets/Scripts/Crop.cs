@@ -4,7 +4,7 @@ using System;
 
 public class Crop : MonoBehaviour
 {
-    public static event Action<Crop> OnNectarReady; // Событие появления нектара
+    public static event Action<Crop> OnNectarReady;
 
     [SerializeField] private CropTimer cropTimer;
 

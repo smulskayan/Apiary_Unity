@@ -2,12 +2,11 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform player;    // Ссылка на трансформ игрока
-    public Vector3 offset;      // Смещение камеры относительно игрока
+    public Transform player;
+    public Vector3 offset;
 
     void Start()
     {
-        // Если камера не привязана к игроку, то найдем объект с тегом "Player"
         if (player == null)
         {
             player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -16,7 +15,6 @@ public class CameraFollow : MonoBehaviour
 
     void LateUpdate()
     {
-        // Камера следит за игроком с использованием Smooth Lerp
         Vector3 targetPosition = player.position + offset;
         transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * 5f);
     }

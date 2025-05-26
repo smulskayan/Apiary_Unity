@@ -8,9 +8,9 @@ public class XPManager : MonoBehaviour
     public int maxXP = 10;
     public int level = 1;
 
-    public Image xpFillImage;          // UI-шкала опыта (тип Filled)
-    public TextMeshProUGUI levelText;             // UI-текст уровн€
-    public GameObject levelUpEffect;   // Ёффект повышени€ уровн€ (необ€зательно)
+    public Image xpFillImage;
+    public TextMeshProUGUI levelText;
+    public GameObject levelUpEffect;
 
     void Start()
     {
@@ -21,13 +21,12 @@ public class XPManager : MonoBehaviour
     public void AddXP(int amount)
     {
         currentXP += amount;
-
         if (currentXP >= maxXP)
         {
             LevelUp();
         }
 
-        currentXP = Mathf.Min(currentXP, maxXP); // ограничение
+        currentXP = Mathf.Min(currentXP, maxXP);
         UpdateXPBar();
     }
 
@@ -62,8 +61,6 @@ public class XPManager : MonoBehaviour
 
         UpdateXPBar();
         UpdateLevelText();
-
-        Debug.Log($"Level Up! Ќовый уровень: {level}");
 
         if (levelUpEffect != null)
         {

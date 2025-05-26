@@ -2,29 +2,26 @@ using UnityEngine;
 
 public class HiveSlot : MonoBehaviour
 {
-    public bool isOccupied = false;  // Проверка, занят ли слот
-    private SpriteRenderer sr;       // Для изменения цвета
-    private Color defaultColor;      // Исходный цвет
-    private Color highlightColor = Color.yellow;  // Цвет подсветки
+    public bool isOccupied = false;
+    private SpriteRenderer sr;
+    private Color defaultColor;
+    private Color highlightColor = Color.yellow;
 
-    private bool isNearPlayer = false;  // Определяет, рядом ли игрок
+    private bool isNearPlayer = false;
 
     void Start()
     {
-        sr = GetComponent<SpriteRenderer>();  // Получаем компонент SpriteRenderer
-        defaultColor = sr.color;  // Сохраняем исходный цвет слота
+        sr = GetComponent<SpriteRenderer>();
+        defaultColor = sr.color;
     }
 
     void Update()
     {
-        // Если игрок рядом и слот не занят, меняем цвет на жёлтый
-        if (isNearPlayer && !isOccupied)
-        {
-            sr.color = highlightColor;  // Подсвечиваем слот
+        if (isNearPlayer && !isOccupied) {
+            sr.color = highlightColor;
         }
-        else
-        {
-            sr.color = defaultColor;  // Восстанавливаем исходный цвет
+        else {
+            sr.color = defaultColor;
         }
     }
 
@@ -32,7 +29,7 @@ public class HiveSlot : MonoBehaviour
     {
         if (other.CompareTag("Player") && !isOccupied)
         {
-            isNearPlayer = true;  // Игрок рядом
+            isNearPlayer = true;
         }
     }
 
@@ -40,7 +37,7 @@ public class HiveSlot : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            isNearPlayer = false;  // Игрок покидает слот
+            isNearPlayer = false;
         }
     }
 }
