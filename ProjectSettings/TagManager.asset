@@ -11,6 +11,8 @@ TagManager:
   - StorageTrigger
   - TriggerZone
   - Storage
+  - Inventory
+  - Field
   layers:
   - Default
   - TransparentFX
