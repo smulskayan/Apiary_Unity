@@ -12,6 +12,8 @@ public class Bee : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private Vector3 lastPosition;
+    private AudioSource flyAudioSource; // Ссылка на AudioSource для звука полета
+    public AudioClip flyClip; // Аудиоклип для звука полета
 
     public void Initialize(Transform flower, Transform hive)
     {
@@ -31,16 +33,26 @@ public class Bee : MonoBehaviour
             animator.Play("BeeFly");
         }
 
+        flyAudioSource = GetComponent<AudioSource>(); // Получаем AudioSource
+        if (flyAudioSource != null && flyClip != null)
+        {
+            flyAudioSource.clip = flyClip;
+            flyAudioSource.loop = true; // Зацикливаем звук полета
+            flyAudioSource.Play(); // Начинаем воспроизведение
+        }
+
         lastPosition = transform.position;
     }
 
     void Update()
     {
         Vector2 direction = Vector2.zero;
-        if (state == BeeState.MovingToFlower && targetFlower != null) {
+        if (state == BeeState.MovingToFlower && targetFlower != null)
+        {
             direction = (targetFlower.position - transform.position).normalized;
         }
-        else if (state == BeeState.ReturningToHive && hive != null) {
+        else if (state == BeeState.ReturningToHive && hive != null)
+        {
             direction = (hive.position - transform.position).normalized;
         }
 
@@ -56,6 +68,10 @@ public class Bee : MonoBehaviour
                     {
                         state = BeeState.CollectingNectar;
                         timer = 0f;
+                        if (flyAudioSource != null && flyAudioSource.isPlaying)
+                        {
+                            flyAudioSource.Stop(); // Останавливаем звук при сборе нектара
+                        }
                     }
                 }
                 else
@@ -77,6 +93,10 @@ public class Bee : MonoBehaviour
                         }
                     }
                     state = BeeState.ReturningToHive;
+                    if (flyAudioSource != null && !flyAudioSource.isPlaying)
+                    {
+                        flyAudioSource.Play(); // Возобновляем звук при возвращении
+                    }
                 }
                 break;
 
@@ -87,11 +107,19 @@ public class Bee : MonoBehaviour
                     if (Vector2.Distance(transform.position, hive.position) < 0.1f)
                     {
                         hive.SendMessage("BeeReturned", SendMessageOptions.DontRequireReceiver);
+                        if (flyAudioSource != null && flyAudioSource.isPlaying)
+                        {
+                            flyAudioSource.Stop(); // Останавливаем звук перед уничтожением
+                        }
                         Destroy(gameObject);
                     }
                 }
-                else 
+                else
                 {
+                    if (flyAudioSource != null && flyAudioSource.isPlaying)
+                    {
+                        flyAudioSource.Stop(); // Останавливаем звук перед уничтожением
+                    }
                     Destroy(gameObject);
                 }
                 break;
@@ -109,10 +137,12 @@ public class Bee : MonoBehaviour
     {
         if (spriteRenderer != null)
         {
-            if (direction.x < -0.01f) {
+            if (direction.x < -0.01f)
+            {
                 spriteRenderer.flipX = true;
             }
-            else if (direction.x > 0.01f) {
+            else if (direction.x > 0.01f)
+            {
                 spriteRenderer.flipX = false;
             }
         }

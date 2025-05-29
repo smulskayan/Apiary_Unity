@@ -5,12 +5,16 @@ public class HiveManager : MonoBehaviour
     public GameObject beehivePrefab;
     public float placementRange = 2f;
     public Vector3 placementOffset = new Vector3(0, 0.5f, 0);
-
+    public AudioClip placementSound; // Звук размещения улья
+    private AudioSource audioSource; // Ссылка на AudioSource
     private GameObject player;
+    private XPManager xpManager; // Ссылка на XPManager
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        audioSource = GetComponent<AudioSource>(); // Получаем AudioSource
+        xpManager = FindObjectOfType<XPManager>(); // Находим XPManager
     }
 
     void Update()
@@ -30,7 +34,8 @@ public class HiveManager : MonoBehaviour
         foreach (HiveSlot slot in slots)
         {
             float dist = Vector2.Distance(player.transform.position, slot.transform.position);
-            if (dist < minDist && dist <= placementRange && !slot.isOccupied)
+            // Проверяем, не занят ли слот и доступен ли он по уровню
+            if (dist < minDist && dist <= placementRange && !slot.isOccupied && IsSlotUnlocked(slot))
             {
                 minDist = dist;
                 nearest = slot;
@@ -43,11 +48,20 @@ public class HiveManager : MonoBehaviour
             Instantiate(beehivePrefab, spawnPosition, Quaternion.identity);
             nearest.isOccupied = true;
 
-            XPManager xp = FindObjectOfType<XPManager>();
-            if (xp != null)
+            if (audioSource != null && placementSound != null)
             {
-                xp.AddXP(3);
+                audioSource.PlayOneShot(placementSound); // Воспроизводим звук размещения
+            }
+
+            if (xpManager != null)
+            {
+                xpManager.AddXP(3);
             }
         }
+    }
+
+    private bool IsSlotUnlocked(HiveSlot slot)
+    {
+        return xpManager != null && xpManager.level >= slot.requiredLevel;
     }
 }

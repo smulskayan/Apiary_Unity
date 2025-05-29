@@ -13,6 +13,10 @@ TagManager:
   - Storage
   - Inventory
   - Field
+  - car
+  - Barrel
+  - FinishLine
+  - Honey
   layers:
   - Default
   - TransparentFX
