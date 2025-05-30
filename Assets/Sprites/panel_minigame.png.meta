@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      panel_minigame_0: 4527660760617563180
+      panel_minigame_1: 6764900665219492226
+      panel_minigame_2: -7315409521682452574
+      panel_minigame_3: 3184556764490275505
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

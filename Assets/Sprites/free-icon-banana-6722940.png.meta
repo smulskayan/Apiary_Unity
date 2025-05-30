@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      free-icon-banana-6722940_0: 5202969807416067491
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
