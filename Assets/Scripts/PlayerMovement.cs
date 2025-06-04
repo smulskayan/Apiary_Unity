@@ -2,14 +2,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-<<<<<<< HEAD
-    public float moveSpeed = 3f;
-    public AudioClip[] stepClips; // ������ ������ �����
-=======
     [SerializeField] private float moveSpeed = 3f; // �������� ��������
     [SerializeField] private AudioClip[] stepClips; // ������ ������ �����
     [SerializeField] private GameObject miniGameCanvas; // ������ �� MiniGameCanvas
->>>>>>> 7b4b91f98ec8ec83a0c38b6ee755129e114a112d
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private Animator animator;

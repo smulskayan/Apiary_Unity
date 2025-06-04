@@ -3,39 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags:
-  - StoragePanel
-  - Flower
-  - Bee
-  - Hive
-  - StorageTrigger
-  - TriggerZone
-  - Storage
-  - Inventory
-  - Field
-  - car
-  - Barrel
-  - FinishLine
-  - Honey
-  - Trash
-<<<<<<< HEAD
-  - Menu
-=======
-  - MiniGame
-  - New tag
-  - coin
-  - Coin
-  - Obstacle
->>>>>>> 7b4b91f98ec8ec83a0c38b6ee755129e114a112d
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Player
+  - 
   - Water
   - UI
-  - MiniGame
-  - Car
+  - 
+  - 
   - 
   - 
   - 
@@ -63,27 +40,6 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Background
-    uniqueID: 3725128541
-    locked: 0
-  - name: Icons
-    uniqueID: 3346718551
-    locked: 0
-  - name: Characte
-    uniqueID: 29024251
-    locked: 0
-  - name: Bee
-    uniqueID: 3521988067
-    locked: 0
-  - name: UI
-    uniqueID: 281498947
-    locked: 0
-  - name: MiniGame
-    uniqueID: 226422915
-    locked: 0
-  - name: Foreground
-    uniqueID: 2380992263
     locked: 0
   m_RenderingLayers:
   - Default
