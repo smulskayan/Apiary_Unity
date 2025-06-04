@@ -26,6 +26,10 @@ public class Crop : MonoBehaviour
     private GameObject player;
     private bool readyForAction;
 
+    private XPManager xpManager;
+    public int requiredLevel = 1;
+    public GameObject lockSprite;
+
     void Start()
     {
         cropSpriteRenderer = GetComponent<SpriteRenderer>();
@@ -33,12 +37,15 @@ public class Crop : MonoBehaviour
         flowerSpriteRenderer = GetComponentsInChildren<SpriteRenderer>()[1];
         nectarSpriteRenderer = GetComponentsInChildren<SpriteRenderer>()[3];
         waterSpriteRenderer = GetComponentsInChildren<SpriteRenderer>()[4];
+        xpManager = FindObjectOfType<XPManager>();
 
         player = GameObject.FindWithTag("Player");
     }
 
     void Update()
     {
+        UpdateLockSprite();
+
         if (Input.GetKeyDown(KeyCode.E)) TryPlaceCrop();
     }
 
@@ -143,7 +150,7 @@ public class Crop : MonoBehaviour
     {
         if (step != STEP_GROWS)
         {
-            if (Vector2.Distance(this.transform.position, player.transform.position) < 2f)
+            if (Vector2.Distance(this.transform.position, player.transform.position) < 2f && IsSlotUnlocked())
             {
                 readyForAction = true;
                 cropSpriteRenderer.sprite = Resources.Load<Sprite>("cropSelected");
@@ -157,6 +164,20 @@ public class Crop : MonoBehaviour
         else
         {
             cropSpriteRenderer.sprite = Resources.Load<Sprite>("crop");
+        }
+    }
+
+
+    private bool IsSlotUnlocked()
+    {
+        return xpManager != null && xpManager.level >= requiredLevel;
+    }
+
+    private void UpdateLockSprite()
+    {
+        if (lockSprite != null)
+        {
+            lockSprite.SetActive(!IsSlotUnlocked());
         }
     }
 }

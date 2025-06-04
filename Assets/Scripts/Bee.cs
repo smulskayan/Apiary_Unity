@@ -12,8 +12,8 @@ public class Bee : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private Vector3 lastPosition;
-    private AudioSource flyAudioSource; // Ссылка на AudioSource для звука полета
-    public AudioClip flyClip; // Аудиоклип для звука полета
+    private AudioSource flyAudioSource; // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ AudioSource пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+    public AudioClip flyClip; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 
     public void Initialize(Transform flower, Transform hive)
     {
@@ -33,12 +33,12 @@ public class Bee : MonoBehaviour
             animator.Play("BeeFly");
         }
 
-        flyAudioSource = GetComponent<AudioSource>(); // Получаем AudioSource
+        flyAudioSource = GetComponent<AudioSource>(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ AudioSource
         if (flyAudioSource != null && flyClip != null)
         {
             flyAudioSource.clip = flyClip;
-            flyAudioSource.loop = true; // Зацикливаем звук полета
-            flyAudioSource.Play(); // Начинаем воспроизведение
+            flyAudioSource.loop = true; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+            flyAudioSource.Play(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         }
 
         lastPosition = transform.position;
@@ -70,7 +70,7 @@ public class Bee : MonoBehaviour
                         timer = 0f;
                         if (flyAudioSource != null && flyAudioSource.isPlaying)
                         {
-                            flyAudioSource.Stop(); // Останавливаем звук при сборе нектара
+                            flyAudioSource.Stop(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
                         }
                     }
                 }
@@ -95,7 +95,7 @@ public class Bee : MonoBehaviour
                     state = BeeState.ReturningToHive;
                     if (flyAudioSource != null && !flyAudioSource.isPlaying)
                     {
-                        flyAudioSource.Play(); // Возобновляем звук при возвращении
+                        flyAudioSource.Play(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
                     }
                 }
                 break;
@@ -109,7 +109,7 @@ public class Bee : MonoBehaviour
                         hive.SendMessage("BeeReturned", SendMessageOptions.DontRequireReceiver);
                         if (flyAudioSource != null && flyAudioSource.isPlaying)
                         {
-                            flyAudioSource.Stop(); // Останавливаем звук перед уничтожением
+                            flyAudioSource.Stop(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
                         }
                         Destroy(gameObject);
                     }
@@ -118,7 +118,7 @@ public class Bee : MonoBehaviour
                 {
                     if (flyAudioSource != null && flyAudioSource.isPlaying)
                     {
-                        flyAudioSource.Stop(); // Останавливаем звук перед уничтожением
+                        flyAudioSource.Stop(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
                     }
                     Destroy(gameObject);
                 }

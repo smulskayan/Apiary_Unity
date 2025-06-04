@@ -3,19 +3,19 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 3f;
-    public AudioClip[] stepClips; // Массив звуков шагов
+    public AudioClip[] stepClips; // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
-    private AudioSource stepAudioSource; // Ссылка на AudioSource
+    private AudioSource stepAudioSource; // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ AudioSource
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        stepAudioSource = GetComponent<AudioSource>(); // Получаем AudioSource
+        stepAudioSource = GetComponent<AudioSource>(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ AudioSource
     }
 
     void Update()
@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
             spriteRenderer.flipX = moveInput.x < 0;
         }
 
-        // Воспроизведение и остановка звука шагов
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
         if (moveInput.magnitude > 0 && !stepAudioSource.isPlaying)
         {
             stepAudioSource.clip = stepClips[Random.Range(0, stepClips.Length)];

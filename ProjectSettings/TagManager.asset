@@ -17,6 +17,8 @@ TagManager:
   - Barrel
   - FinishLine
   - Honey
+  - Trash
+  - Menu
   layers:
   - Default
   - TransparentFX

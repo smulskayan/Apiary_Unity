@@ -9,6 +9,12 @@ public class Menu : MonoBehaviour
     public bool shopOpened;
     private GameObject shop;
 
+    public GameObject miniAppPanel;
+    public bool panelOpened;
+    private GameObject panel;
+
+    public GameObject endPanel;
+
     public void openShop()
     {
         if (!shopOpened)
@@ -29,5 +35,33 @@ public class Menu : MonoBehaviour
             Destroy(shop);
             shopOpened = false;
         }
+    }
+
+    public void openPanel()
+    {
+        if (!panelOpened)
+        {
+            panel = Instantiate(miniAppPanel);
+            panel.transform.SetParent(gameObject.transform);
+            panel.GetComponent<RectTransform>().offsetMin = new Vector2(100, 59);
+            panel.GetComponent<RectTransform>().offsetMax = new Vector2(-100, -50);
+            panel.GetComponent<RectTransform>().localScale = new Vector3(1, 1, 1);
+
+            panelOpened = true;
+        }
+    }
+    public void closePanel()
+    {
+        if (panelOpened)
+        {
+            Destroy(panel);
+            panelOpened = false;
+            openEndPanel();
+        }
+    }
+
+    public void openEndPanel()
+    {
+        endPanel.SetActive(true);
     }
 }

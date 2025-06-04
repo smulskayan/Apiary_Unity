@@ -6,15 +6,19 @@ using UnityEngine.UI;
 
 public class MiniAppCrop : MonoBehaviour
 {
-    private Field field;
+    private Menu inventory;
     private Button buttonClose;
     private Text moneyText;
     private Text caughtCountText;
     private Text allCountText;
-    private int caughtCount = 0;
-    private int allCount = 0;
+    public static int caughtCount = 0;
+    public static int allCount = 0;
     public Crop_with_hole crop;
     public Worm worm;
+
+    public Text timerText;
+    public float lifetime = 60f;
+    private float gameTime;
 
     public Crop_with_hole[,] crops = new Crop_with_hole[3, 3];
     public float timer = 0f;
@@ -38,7 +42,7 @@ public class MiniAppCrop : MonoBehaviour
     void Start()
     {
         buttonClose = GetComponentsInChildren<Button>()[0];
-        field = GameObject.FindWithTag("Field").GetComponent<Field>();
+        inventory = GameObject.FindWithTag("Inventory").GetComponent<Menu>();
 
         moneyText = GetComponentsInChildren<Text>()[0];
         caughtCountText = GetComponentsInChildren<Text>()[1];
@@ -50,7 +54,7 @@ public class MiniAppCrop : MonoBehaviour
         UpdateMoneyText();
         if (buttonClose != null) 
         {
-            buttonClose.onClick.AddListener(field.closePanel);
+            buttonClose.onClick.AddListener(inventory.closePanel);
         }
         CreateCrops();
         CreateWorm();
@@ -58,6 +62,16 @@ public class MiniAppCrop : MonoBehaviour
 
     void Update()
     {
+        timerText.text = "До конца мини-игры осталось: " + lifetime + " sec";
+        gameTime += Time.deltaTime;
+        if(gameTime >= 1) {
+            lifetime -= 1;
+            gameTime = 0;
+        }  
+        if(lifetime == 0) inventory.closePanel();
+        else if (lifetime <= 3) timerText.color = Color.red;
+        else if(lifetime <= 5) timerText.color = Color.yellow;
+
         timer += Time.deltaTime;
         if (timer >= 2) 
         {
