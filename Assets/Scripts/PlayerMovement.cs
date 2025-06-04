@@ -2,8 +2,14 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+<<<<<<< HEAD
     public float moveSpeed = 3f;
     public AudioClip[] stepClips; // ������ ������ �����
+=======
+    [SerializeField] private float moveSpeed = 3f; // �������� ��������
+    [SerializeField] private AudioClip[] stepClips; // ������ ������ �����
+    [SerializeField] private GameObject miniGameCanvas; // ������ �� MiniGameCanvas
+>>>>>>> 7b4b91f98ec8ec83a0c38b6ee755129e114a112d
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private Animator animator;
@@ -20,6 +26,19 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        // ���������, ������� �� MiniGameCanvas
+        if (miniGameCanvas != null && miniGameCanvas.activeSelf)
+        {
+            // ��������� ��������, �������� � ����
+            moveInput = Vector2.zero;
+            animator.SetFloat("Speed", 0);
+            if (stepAudioSource.isPlaying)
+            {
+                stepAudioSource.Stop();
+            }
+            return;
+        }
+
         moveInput.x = Input.GetAxisRaw("Horizontal");
         moveInput.y = Input.GetAxisRaw("Vertical");
 
@@ -44,6 +63,10 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.MovePosition(rb.position + moveInput * moveSpeed * Time.fixedDeltaTime);
+        // ������� ��������� ������ ���� MiniGameCanvas ���������
+        if (miniGameCanvas == null || !miniGameCanvas.activeSelf)
+        {
+            rb.MovePosition(rb.position + moveInput * moveSpeed * Time.fixedDeltaTime);
+        }
     }
 }

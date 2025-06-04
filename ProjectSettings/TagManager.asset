@@ -18,7 +18,15 @@ TagManager:
   - FinishLine
   - Honey
   - Trash
+<<<<<<< HEAD
   - Menu
+=======
+  - MiniGame
+  - New tag
+  - coin
+  - Coin
+  - Obstacle
+>>>>>>> 7b4b91f98ec8ec83a0c38b6ee755129e114a112d
   layers:
   - Default
   - TransparentFX
@@ -26,8 +34,8 @@ TagManager:
   - Player
   - Water
   - UI
-  - 
-  - 
+  - MiniGame
+  - Car
   - 
   - 
   - 
@@ -70,6 +78,12 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 281498947
+    locked: 0
+  - name: MiniGame
+    uniqueID: 226422915
+    locked: 0
+  - name: Foreground
+    uniqueID: 2380992263
     locked: 0
   m_RenderingLayers:
   - Default
