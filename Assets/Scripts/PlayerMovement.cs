@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 3f;
-    public AudioClip[] stepClips; // Массив звуков шагов
+    [SerializeField] private float moveSpeed = 3f; // Скорость движения
+    [SerializeField] private AudioClip[] stepClips; // Массив звуков шагов
+    [SerializeField] private GameObject miniGameCanvas; // Ссылка на MiniGameCanvas
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private Animator animator;
@@ -15,11 +16,30 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        stepAudioSource = GetComponent<AudioSource>(); // Получаем AudioSource
+        stepAudioSource = GetComponent<AudioSource>();
+
+        // Проверяем назначение MiniGameCanvas
+        if (miniGameCanvas == null)
+        {
+            Debug.LogError("MiniGameCanvas не назначен в PlayerMovement! Пожалуйста, назначьте Canvas в инспекторе.");
+        }
     }
 
     void Update()
     {
+        // Проверяем, активен ли MiniGameCanvas
+        if (miniGameCanvas != null && miniGameCanvas.activeSelf)
+        {
+            // Отключаем движение, анимацию и звук
+            moveInput = Vector2.zero;
+            animator.SetFloat("Speed", 0);
+            if (stepAudioSource.isPlaying)
+            {
+                stepAudioSource.Stop();
+            }
+            return;
+        }
+
         moveInput.x = Input.GetAxisRaw("Horizontal");
         moveInput.y = Input.GetAxisRaw("Vertical");
 
@@ -44,6 +64,10 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.MovePosition(rb.position + moveInput * moveSpeed * Time.fixedDeltaTime);
+        // Двигаем персонажа только если MiniGameCanvas неактивен
+        if (miniGameCanvas == null || !miniGameCanvas.activeSelf)
+        {
+            rb.MovePosition(rb.position + moveInput * moveSpeed * Time.fixedDeltaTime);
+        }
     }
 }

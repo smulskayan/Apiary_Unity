@@ -3,20 +3,150 @@
   "WorkspaceRootPath": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\ApiarySceneManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ApiarySceneManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\GameUIManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameUIManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\MiniGameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MiniGameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\Colum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Colum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\bee_player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\bee_player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\MiniAppCrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MiniAppCrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\HiveInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\HiveInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Library\\PackageCache\\com.unity.2d.tilemap@8ef8f443744f\\Editor\\GridPaintingState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.2d.tilemap@8ef8f443744f\\Editor\\GridPaintingState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\SceneSaveManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SceneSaveManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\PlacedObjectData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlacedObjectData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\MiniGameManagerBee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MiniGameManagerBee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\MiniGameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MiniGame\\Scripts\\MiniGameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\WarehouseInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\WarehouseInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\HoneyCollectionMinigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\HoneyCollectionMinigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\UIScrollingRoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MiniGame\\Scripts\\UIScrollingRoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\RoadScroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MiniGame\\Scripts\\RoadScroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\Hive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Hive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\My project\\Apiary_Unity\\Assets\\Scripts\\Flower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\CarInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CarInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\My project\\Apiary_Unity\\Assets\\Scripts\\BeehiveTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\FlappyBee\\Scripts\\HiveInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\FlappyBee\\Scripts\\HiveInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\ObstacleScroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MiniGame\\Scripts\\ObstacleScroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\GameControllerWrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MiniGame\\Scripts\\GameControllerWrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\CarInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MiniGame\\Scripts\\CarInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\ObstacleSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MiniGame\\Scripts\\ObstacleSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MiniGame\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\MiniGameController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MiniGame\\Scripts\\MiniGameController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MiniGame\\Scripts\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\StorageInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StorageInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\CarProximityUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MiniGame\\Scripts\\CarProximityUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\MinigameOpener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MiniGame\\Scripts\\MinigameOpener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\StartMiniGameButtonScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MiniGame\\Scripts\\StartMiniGameButtonScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\ObjectMover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MiniGame\\Scripts\\ObjectMover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\ObjectSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MiniGame\\Scripts\\ObjectSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MiniGame\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\HiveManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\HiveManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\HoneyCollectionMinigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\HoneyCollectionMinigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\HiveSlot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +157,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\XPManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\StorageInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StorageInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\Inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\Hive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Hive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\Bee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,15 +179,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CanvasFollowCamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\My project\\Apiary_Unity\\Assets\\Scripts\\Flower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\Menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\My project\\Apiary_Unity\\Assets\\Scripts\\StorageUIController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -77,9 +192,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\CameraFlow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CameraFlow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\My project\\Apiary_Unity\\Assets\\Scripts\\BeehiveTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\My project\\Apiary_Unity\\Assets\\Scripts\\StorageManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -97,15 +209,161 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 361,
+      "VerticalTabListWidth": 302,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Colum.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\Colum.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Colum.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\Colum.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Colum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:43:04.429Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "bee_player.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\bee_player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\bee_player.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\bee_player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\bee_player.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAswNYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:06:12.571Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MiniGameManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\MiniGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGameManager.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\MiniGameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MiniGameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:18:08.042Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MiniAppCrop.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\MiniAppCrop.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MiniAppCrop.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\MiniAppCrop.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MiniAppCrop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T17:32:11.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameUIManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\GameUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameUIManager.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\GameUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameUIManager.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:15:32.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GridPaintingState.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Library\\PackageCache\\com.unity.2d.tilemap@8ef8f443744f\\Editor\\GridPaintingState.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.2d.tilemap@8ef8f443744f\\Editor\\GridPaintingState.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Library\\PackageCache\\com.unity.2d.tilemap@8ef8f443744f\\Editor\\GridPaintingState.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.2d.tilemap@8ef8f443744f\\Editor\\GridPaintingState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:47:44.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ApiarySceneManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\ApiarySceneManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ApiarySceneManager.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\ApiarySceneManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ApiarySceneManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:45:42.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SceneSaveManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\SceneSaveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneSaveManager.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\SceneSaveManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneSaveManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:43:45.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlacedObjectData.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\PlacedObjectData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlacedObjectData.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\PlacedObjectData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlacedObjectData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:42:53.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HiveInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\HiveInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HiveInteraction.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\HiveInteraction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HiveInteraction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:32:02.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MiniGameManagerBee.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\MiniGameManagerBee.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGameManagerBee.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\MiniGameManagerBee.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MiniGameManagerBee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:20:38.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "WarehouseInteraction.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\WarehouseInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WarehouseInteraction.cs",
@@ -118,43 +376,268 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
+              "Title": "UIScrollingRoad.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\UIScrollingRoad.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniGame\\Scripts\\UIScrollingRoad.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\UIScrollingRoad.cs",
+              "RelativeToolTip": "Assets\\MiniGame\\Scripts\\UIScrollingRoad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:21:49.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RoadScroller.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\RoadScroller.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniGame\\Scripts\\RoadScroller.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\RoadScroller.cs",
+              "RelativeToolTip": "Assets\\MiniGame\\Scripts\\RoadScroller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T09:32:42.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T15:45:54.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ObstacleSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\ObstacleSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniGame\\Scripts\\ObstacleSpawner.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\ObstacleSpawner.cs",
+              "RelativeToolTip": "Assets\\MiniGame\\Scripts\\ObstacleSpawner.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAiwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T12:03:20.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ObstacleScroller.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\ObstacleScroller.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniGame\\Scripts\\ObstacleScroller.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\ObstacleScroller.cs",
+              "RelativeToolTip": "Assets\\MiniGame\\Scripts\\ObstacleScroller.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAiwGgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:02:28.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MiniGameManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\MiniGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniGame\\Scripts\\MiniGameManager.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\MiniGameManager.cs",
+              "RelativeToolTip": "Assets\\MiniGame\\Scripts\\MiniGameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:04:00.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MiniGameController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\MiniGameController.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniGame\\Scripts\\MiniGameController.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\MiniGameController.cs",
+              "RelativeToolTip": "Assets\\MiniGame\\Scripts\\MiniGameController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAiwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T13:53:08.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniGame\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\MiniGame\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:01:47.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CarInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\CarInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniGame\\Scripts\\CarInteraction.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\CarInteraction.cs",
+              "RelativeToolTip": "Assets\\MiniGame\\Scripts\\CarInteraction.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAiwGUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:54:16.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HiveInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\FlappyBee\\Scripts\\HiveInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\FlappyBee\\Scripts\\HiveInteraction.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\FlappyBee\\Scripts\\HiveInteraction.cs",
+              "RelativeToolTip": "Assets\\FlappyBee\\Scripts\\HiveInteraction.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T12:35:03.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GameControllerWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\GameControllerWrapper.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniGame\\Scripts\\GameControllerWrapper.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\GameControllerWrapper.cs",
+              "RelativeToolTip": "Assets\\MiniGame\\Scripts\\GameControllerWrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:13:24.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniGame\\Scripts\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\MiniGame\\Scripts\\CameraFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T16:48:17.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CarProximityUI.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\CarProximityUI.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniGame\\Scripts\\CarProximityUI.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\CarProximityUI.cs",
+              "RelativeToolTip": "Assets\\MiniGame\\Scripts\\CarProximityUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:35:49.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MinigameOpener.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\MinigameOpener.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniGame\\Scripts\\MinigameOpener.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\MinigameOpener.cs",
+              "RelativeToolTip": "Assets\\MiniGame\\Scripts\\MinigameOpener.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:17:58.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "StartMiniGameButtonScript.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\StartMiniGameButtonScript.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniGame\\Scripts\\StartMiniGameButtonScript.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\StartMiniGameButtonScript.cs",
+              "RelativeToolTip": "Assets\\MiniGame\\Scripts\\StartMiniGameButtonScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T10:15:46.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ObjectMover.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\ObjectMover.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniGame\\Scripts\\ObjectMover.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\ObjectMover.cs",
+              "RelativeToolTip": "Assets\\MiniGame\\Scripts\\ObjectMover.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T09:27:37.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ObjectSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\ObjectSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniGame\\Scripts\\ObjectSpawner.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\ObjectSpawner.cs",
+              "RelativeToolTip": "Assets\\MiniGame\\Scripts\\ObjectSpawner.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T09:27:05.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniGame\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\MiniGame\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\MiniGame\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAiwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T09:26:25.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "CarInteraction.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\CarInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CarInteraction.cs",
               "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\CarInteraction.cs",
               "RelativeToolTip": "Assets\\Scripts\\CarInteraction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T16:22:00.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 36,
               "Title": "HoneyCollectionMinigame.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\HoneyCollectionMinigame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HoneyCollectionMinigame.cs",
               "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\HoneyCollectionMinigame.cs",
               "RelativeToolTip": "Assets\\Scripts\\HoneyCollectionMinigame.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAIwJ4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T16:21:24.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 37,
               "Title": "HiveSlot.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\HiveSlot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HiveSlot.cs",
               "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\HiveSlot.cs",
               "RelativeToolTip": "Assets\\Scripts\\HiveSlot.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAwwD8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwDwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T15:33:03.248Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 38,
               "Title": "XPManager.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\XPManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\XPManager.cs",
@@ -166,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 39,
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\Inventory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory.cs",
@@ -178,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 40,
               "Title": "Bee.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\Bee.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bee.cs",
@@ -190,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 44,
               "Title": "CanvasFollowCamera.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\CanvasFollowCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CanvasFollowCamera.cs",
@@ -202,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 48,
               "Title": "CameraFlow.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\CameraFlow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFlow.cs",
@@ -214,19 +697,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 28,
               "Title": "StorageInteraction.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\StorageInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StorageInteraction.cs",
               "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\StorageInteraction.cs",
               "RelativeToolTip": "Assets\\Scripts\\StorageInteraction.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAIwDUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T15:23:38.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 43,
               "Title": "BeeHive.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\My project\\Apiary_Unity\\Assets\\Scripts\\BeeHive.cs",
               "RelativeDocumentMoniker": "..\\My project\\Apiary_Unity\\Assets\\Scripts\\BeeHive.cs",
@@ -237,7 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 41,
               "Title": "BearInteraction.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\BearInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BearInteraction.cs",
@@ -249,7 +732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 51,
               "Title": "BearController.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\My project\\Apiary_Unity\\Assets\\Scripts\\BearController.cs",
               "RelativeDocumentMoniker": "..\\My project\\Apiary_Unity\\Assets\\Scripts\\BearController.cs",
@@ -261,19 +744,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "Hive.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\Hive.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Hive.cs",
               "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\Hive.cs",
               "RelativeToolTip": "Assets\\Scripts\\Hive.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T04:15:36.651Z"
+              "WhenOpened": "2025-05-06T04:15:36.651Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 42,
               "Title": "Bee.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\My project\\Apiary_Unity\\Assets\\Scripts\\Bee.cs",
               "RelativeDocumentMoniker": "..\\My project\\Apiary_Unity\\Assets\\Scripts\\Bee.cs",
@@ -284,7 +768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Flower.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\My project\\Apiary_Unity\\Assets\\Scripts\\Flower.cs",
               "RelativeDocumentMoniker": "..\\My project\\Apiary_Unity\\Assets\\Scripts\\Flower.cs",
@@ -295,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 45,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\Menu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu.cs",
@@ -307,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 46,
               "Title": "StorageUIController.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\My project\\Apiary_Unity\\Assets\\Scripts\\StorageUIController.cs",
               "RelativeDocumentMoniker": "..\\My project\\Apiary_Unity\\Assets\\Scripts\\StorageUIController.cs",
@@ -318,7 +802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 52,
               "Title": "BeeController.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\My project\\Apiary_Unity\\Assets\\Scripts\\BeeController.cs",
               "RelativeDocumentMoniker": "..\\My project\\Apiary_Unity\\Assets\\Scripts\\BeeController.cs",
@@ -330,7 +814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 49,
               "Title": "StorageManager.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\My project\\Apiary_Unity\\Assets\\Scripts\\StorageManager.cs",
               "RelativeDocumentMoniker": "..\\My project\\Apiary_Unity\\Assets\\Scripts\\StorageManager.cs",
@@ -342,19 +826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T15:45:54.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "BeehiveTrigger.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\My project\\Apiary_Unity\\Assets\\Scripts\\BeehiveTrigger.cs",
               "RelativeDocumentMoniker": "..\\My project\\Apiary_Unity\\Assets\\Scripts\\BeehiveTrigger.cs",
@@ -365,19 +837,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 35,
               "Title": "HiveManager.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\HiveManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HiveManager.cs",
               "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\HiveManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\HiveManager.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAwwEIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwEEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T05:15:41.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 47,
               "Title": "YSort.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Apiary_Unity\\Assets\\Scripts\\YSort.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\YSort.cs",
@@ -389,7 +861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 50,
               "Title": "NewEmptyCSharpScript.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\My project\\Apiary_Unity\\Assets\\Scripts\\NewEmptyCSharpScript.cs",
               "RelativeDocumentMoniker": "..\\My project\\Apiary_Unity\\Assets\\Scripts\\NewEmptyCSharpScript.cs",
