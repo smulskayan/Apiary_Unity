@@ -11,6 +11,7 @@ TagManager:
   - Storage
   - Hive
   - Bee
+  - Honey
   layers:
   - Default
   - TransparentFX
@@ -53,6 +54,9 @@ TagManager:
     locked: 0
   - name: Icon
     uniqueID: 3870017677
+    locked: 0
+  - name: Honey
+    uniqueID: 1009333809
     locked: 0
   - name: Character
     uniqueID: 3718730787

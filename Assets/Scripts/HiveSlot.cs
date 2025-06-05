@@ -15,7 +15,7 @@ public class HiveSlot : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
         defaultColor = sr.color;
-        xpManager = FindObjectOfType<XPManager>();
+        xpManager = FindFirstObjectByType<XPManager>();
         UpdateLockSprite();
     }
 

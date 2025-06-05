@@ -14,7 +14,7 @@ public class HiveManager : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         audioSource = GetComponent<AudioSource>();
-        xpManager = FindObjectOfType<XPManager>();
+        xpManager = FindFirstObjectByType<XPManager>();
     }
 
     void Update()
@@ -44,7 +44,7 @@ public class HiveManager : MonoBehaviour
         if (nearest != null)
         {
             Vector3 spawnPosition = nearest.transform.position + placementOffset;
-            Instantiate(beehivePrefab, spawnPosition, Quaternion.identity);
+            GameObject newHive = Instantiate(beehivePrefab, spawnPosition, Quaternion.identity, nearest.transform);
             nearest.isOccupied = true;
 
             if (audioSource != null && placementSound != null)

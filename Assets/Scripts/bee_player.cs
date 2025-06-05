@@ -4,10 +4,12 @@ using System.Collections;
 
 public class bee_player : MonoBehaviour
 {
-    public Rigidbody2D rigidbody;
+    public Rigidbody2D rb;
     public float jumpForce = 5f;
     public int points = 0;
     public int maxPoints = 10;
+
+    public Vector3 startPosition = new Vector3(0, -2f, 0);
 
     public TextMeshProUGUI coinCounterText;
     public TextMeshProUGUI countdownText;
@@ -25,7 +27,11 @@ public class bee_player : MonoBehaviour
 
     void Start()
     {
-        rigidbody.simulated = false;
+        transform.position = startPosition;
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+
+        rb.simulated = false;
         loseText?.gameObject.SetActive(false);
         points = 0;
 
@@ -55,7 +61,7 @@ public class bee_player : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            rigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
     }
 
@@ -92,7 +98,7 @@ public class bee_player : MonoBehaviour
     void WinGame()
     {
         isDead = true;
-        rigidbody.simulated = false;
+        rb.simulated = false;
 
         if (loseText != null)
         {
@@ -109,7 +115,7 @@ public class bee_player : MonoBehaviour
     void Die()
     {
         isDead = true;
-        rigidbody.simulated = false;
+        rb.simulated = false;
 
         if (loseText != null)
         {
@@ -144,7 +150,7 @@ public class bee_player : MonoBehaviour
             countdownText.gameObject.SetActive(false);
         }
 
-        rigidbody.simulated = true;
+        rb.simulated = true;
         isDead = false;
 
         if (MiniGameManagerBee.Instance != null)
@@ -156,9 +162,9 @@ public class bee_player : MonoBehaviour
         points = 0;
         isDead = false;
 
-        rigidbody.simulated = false;
-        transform.position = Vector3.zero;
-        rigidbody.linearVelocity = Vector2.zero;
+        rb.simulated = false;
+        transform.position = startPosition;
+        rb.linearVelocity = startPosition;
 
         loseText?.gameObject.SetActive(false);
         UpdateCoinUI();

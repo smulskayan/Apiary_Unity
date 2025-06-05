@@ -12,8 +12,8 @@ public class Bee : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private Vector3 lastPosition;
-    private AudioSource flyAudioSource; // ������ �� AudioSource ��� ����� ������
-    public AudioClip flyClip; // ��������� ��� ����� ������
+    private AudioSource flyAudioSource;
+    public AudioClip flyClip;
 
     public void Initialize(Transform flower, Transform hive)
     {
@@ -33,12 +33,12 @@ public class Bee : MonoBehaviour
             animator.Play("BeeFly");
         }
 
-        flyAudioSource = GetComponent<AudioSource>(); // �������� AudioSource
+        flyAudioSource = GetComponent<AudioSource>();
         if (flyAudioSource != null && flyClip != null)
         {
             flyAudioSource.clip = flyClip;
-            flyAudioSource.loop = true; // ����������� ���� ������
-            flyAudioSource.Play(); // �������� ���������������
+            flyAudioSource.loop = true;
+            flyAudioSource.Play();
         }
 
         lastPosition = transform.position;
@@ -70,7 +70,7 @@ public class Bee : MonoBehaviour
                         timer = 0f;
                         if (flyAudioSource != null && flyAudioSource.isPlaying)
                         {
-                            flyAudioSource.Stop(); // ������������� ���� ��� ����� �������
+                            flyAudioSource.Stop();
                         }
                     }
                 }
@@ -95,7 +95,7 @@ public class Bee : MonoBehaviour
                     state = BeeState.ReturningToHive;
                     if (flyAudioSource != null && !flyAudioSource.isPlaying)
                     {
-                        flyAudioSource.Play(); // ������������ ���� ��� �����������
+                        flyAudioSource.Play();
                     }
                 }
                 break;
@@ -109,7 +109,7 @@ public class Bee : MonoBehaviour
                         hive.SendMessage("BeeReturned", SendMessageOptions.DontRequireReceiver);
                         if (flyAudioSource != null && flyAudioSource.isPlaying)
                         {
-                            flyAudioSource.Stop(); // ������������� ���� ����� ������������
+                            flyAudioSource.Stop();
                         }
                         Destroy(gameObject);
                     }
@@ -118,7 +118,7 @@ public class Bee : MonoBehaviour
                 {
                     if (flyAudioSource != null && flyAudioSource.isPlaying)
                     {
-                        flyAudioSource.Stop(); // ������������� ���� ����� ������������
+                        flyAudioSource.Stop();
                     }
                     Destroy(gameObject);
                 }

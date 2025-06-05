@@ -37,7 +37,7 @@ public class Crop : MonoBehaviour
         flowerSpriteRenderer = GetComponentsInChildren<SpriteRenderer>()[1];
         nectarSpriteRenderer = GetComponentsInChildren<SpriteRenderer>()[3];
         waterSpriteRenderer = GetComponentsInChildren<SpriteRenderer>()[4];
-        xpManager = FindObjectOfType<XPManager>();
+        xpManager = FindFirstObjectByType<XPManager>();
 
         player = GameObject.FindWithTag("Player");
     }
@@ -71,7 +71,7 @@ public class Crop : MonoBehaviour
                         Player.flower_count++; // Увеличиваем кол-во цветов
                         Player.flower_count_live++; // Увеличиваем кол-во живых цветов
 
-                        XPWaterManager xp = FindObjectOfType<XPWaterManager>(); // Обновляем состояние влажности почвы
+                        XPWaterManager xp = FindFirstObjectByType<XPWaterManager>(); // Обновляем состояние влажности почвы
                         if (xp != null) xp.UpdateXPBar();
                     } 
                 }
@@ -128,7 +128,7 @@ public class Crop : MonoBehaviour
         flowerSpriteRenderer.sprite = Resources.Load<Sprite>("flower_dead");
         step = STEP_WANT_WATERING;
         Player.flower_count_live--; // Уменьшаем кол-во живых цветов
-        XPWaterManager xp = FindObjectOfType<XPWaterManager>(); // Обновляем состояние влажности почвы
+        XPWaterManager xp = FindFirstObjectByType<XPWaterManager>(); // Обновляем состояние влажности почвы
         if (xp != null) xp.UpdateXPBar();
     }
 
@@ -142,7 +142,7 @@ public class Crop : MonoBehaviour
         step = STEP_READY_FLOWER;
         
         Player.flower_count_live++; // Увеличиваем кол-во живых цветов
-        XPWaterManager xp = FindObjectOfType<XPWaterManager>(); // Обновляем состояние влажности почвы
+        XPWaterManager xp = FindFirstObjectByType<XPWaterManager>(); // Обновляем состояние влажности почвы
         if (xp != null) xp.UpdateXPBar();
     }
 

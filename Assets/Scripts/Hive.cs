@@ -66,13 +66,12 @@ public class Hive : MonoBehaviour
     public void BeeReturned()
     {
         currentBees--;
-        if (!hasHoney)
-        {
+        if (!hasHoney) {
             StartCoroutine(ProduceHoney());
         }
-        XPManager xp = FindObjectOfType<XPManager>();
+        XPManager xp = FindFirstObjectByType<XPManager>();
         if (xp != null) {
-            xp.AddXP(9);
+            xp.AddXP(3);
         }
     }
 
@@ -93,9 +92,8 @@ public class Hive : MonoBehaviour
             item_nectar.count = -1;
             Player.checkIfItemExists(item_nectar);
             UpdateHoneyIcon();
-            XPManager xp = FindObjectOfType<XPManager>();
-            if (xp != null)
-            {
+            XPManager xp = FindFirstObjectByType<XPManager>();
+            if (xp != null) {
                 xp.AddXP(1);
             }
             item_honey.count = 1;
