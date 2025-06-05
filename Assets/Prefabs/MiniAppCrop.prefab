@@ -457,7 +457,7 @@ MonoBehaviour:
   crop: {fileID: 5368606898961579957, guid: 29d189b18f5c8424297aec654167e2a8, type: 3}
   worm: {fileID: 7250505359769413497, guid: cda24f7cf4eec264eaa1d5e1b8bafb0c, type: 3}
   timerText: {fileID: 1606365130087554722}
-  lifetime: 10
+  lifetime: 5
   timer: 0
 --- !u!1 &6200435357109718711
 GameObject:

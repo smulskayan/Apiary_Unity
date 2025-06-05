@@ -62,6 +62,7 @@ public class Menu : MonoBehaviour
 
     public void openEndPanel()
     {
+        print("+++");
         endPanel.SetActive(true);
     }
 }
