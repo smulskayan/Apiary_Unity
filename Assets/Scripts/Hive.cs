@@ -4,7 +4,7 @@ using System.Collections;
 public class Hive : MonoBehaviour
 {
     public GameObject beePrefab;
-    [SerializeField] private GameObject honeyIcon;
+    public GameObject honeyIcon;
     private int maxBees = 1;
     private int currentBees = 0;
     [SerializeField] private bool hasHoney = false;
@@ -72,7 +72,7 @@ public class Hive : MonoBehaviour
         }
         XPManager xp = FindObjectOfType<XPManager>();
         if (xp != null) {
-            xp.AddXP(3);
+            xp.AddXP(9);
         }
     }
 
@@ -85,7 +85,7 @@ public class Hive : MonoBehaviour
 
     public void CollectHoney()
     {
-        Item item_honey = new Item("jarHoney", "jarHoney", 1, Item.TYPEPFOOD, 10, 1, 2f);
+        Item item_honey = new Item("jar_honey", "jar_honey", 1, Item.TYPEPFOOD, 10, 1, 2f);
         Item item_nectar = new Item("nectar", "nectar", 1, Item.TYPEPFOOD, 10, 1, 5f);
         if (hasHoney)
         {

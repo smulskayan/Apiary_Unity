@@ -20,25 +20,20 @@ public class GamePanel : MonoBehaviour
         int allWorm = MiniAppCrop.allCount;
         int myWorm = MiniAppCrop.caughtCount;
 
-        if(allWorm == 1) { extraTextAll = " червь"; }
-        else if (allWorm > 1 && allWorm < 5) { extraTextAll = " червя"; }
-        else { extraTextAll = " червей"; }
+        if(allWorm == 1) { extraTextAll = " червяк"; }
+        else if (allWorm > 1 && allWorm < 5) { extraTextAll = " червяка"; }
+        else { extraTextAll = " червяков"; }
 
-        if(myWorm == 1) { extraTextMy = " червь"; }
-        else if (myWorm > 1 && myWorm < 5) { extraTextMy = " червя"; }
-        else { extraTextMy = " червей"; }
+        if(myWorm == 1) { extraTextMy = " червяк"; }
+        else if (myWorm > 1 && myWorm < 5) { extraTextMy = " червяка"; }
+        else { extraTextMy = " червяков"; }
         
         allCountText.text = allWorm + extraTextAll;
         caughtCountText.text =  myWorm + extraTextMy;
     }
 
-    void Update()
-    {
-
-    }
-
     public void closeGamePanel()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }

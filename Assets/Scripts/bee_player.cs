@@ -17,7 +17,6 @@ public class bee_player : MonoBehaviour
 
     private bool isDead = false;
 
-    // Начальные позиции
     private GameObject[] coins;
     private Vector3[] coinsStartPositions;
 

@@ -3,8 +3,8 @@ using UnityEngine.UI;
 
 public class ApiaryProgressManager : MonoBehaviour
 {
-    public GameObject completedUI; // Панель или иконка "мини-игра пройдена"
-    public Text coinText; // UI текст с количеством монет
+    public GameObject completedUI;
+    public Text coinText;
 
     void Start()
     {
@@ -13,12 +13,11 @@ public class ApiaryProgressManager : MonoBehaviour
 
         if (completed == 1)
         {
-            Debug.Log("Мини-игра пройдена!");
             if (completedUI != null)
                 completedUI.SetActive(true);
 
             if (coinText != null)
-                coinText.text = "Монеты: " + coins.ToString();
+                coinText.text = "пїЅпїЅпїЅпїЅпїЅпїЅ: " + coins.ToString();
         }
         else
         {

@@ -15,11 +15,7 @@ public class GameUIManager : MonoBehaviour
 
         if (beePlayerScript != null)
         {
-            beePlayerScript.ResetMiniGame(); // перезапускаем мини-игру
-        }
-        else
-        {
-            Debug.LogWarning("bee_player script не назначен в GameUIManager!");
+            beePlayerScript.ResetMiniGame();
         }
     }
 

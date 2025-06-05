@@ -5,16 +5,16 @@ public class HiveManager : MonoBehaviour
     public GameObject beehivePrefab;
     public float placementRange = 2f;
     public Vector3 placementOffset = new Vector3(0, 0.5f, 0);
-    public AudioClip placementSound; // Звук размещения улья
-    private AudioSource audioSource; // Ссылка на AudioSource
+    public AudioClip placementSound;
+    private AudioSource audioSource;
     private GameObject player;
-    private XPManager xpManager; // Ссылка на XPManager
+    private XPManager xpManager;
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        audioSource = GetComponent<AudioSource>(); // Получаем AudioSource
-        xpManager = FindObjectOfType<XPManager>(); // Находим XPManager
+        audioSource = GetComponent<AudioSource>();
+        xpManager = FindObjectOfType<XPManager>();
     }
 
     void Update()
@@ -34,7 +34,6 @@ public class HiveManager : MonoBehaviour
         foreach (HiveSlot slot in slots)
         {
             float dist = Vector2.Distance(player.transform.position, slot.transform.position);
-            // Проверяем, не занят ли слот и доступен ли он по уровню
             if (dist < minDist && dist <= placementRange && !slot.isOccupied && IsSlotUnlocked(slot))
             {
                 minDist = dist;
@@ -50,7 +49,7 @@ public class HiveManager : MonoBehaviour
 
             if (audioSource != null && placementSound != null)
             {
-                audioSource.PlayOneShot(placementSound); // Воспроизводим звук размещения
+                audioSource.PlayOneShot(placementSound);
             }
 
             if (xpManager != null)

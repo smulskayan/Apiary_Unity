@@ -3,8 +3,8 @@ using UnityEngine;
 public class HiveSlot : MonoBehaviour
 {
     public bool isOccupied = false;
-    public int requiredLevel = 1; // Требуемый уровень для разблокировки
-    public GameObject lockSprite; // GameObject с картинкой замка (SpriteRenderer)
+    public int requiredLevel = 1;
+    public GameObject lockSprite;
     private SpriteRenderer sr;
     private Color defaultColor;
     private Color highlightColor = Color.yellow;

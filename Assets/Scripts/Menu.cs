@@ -9,11 +9,20 @@ public class Menu : MonoBehaviour
     public bool shopOpened;
     private GameObject shop;
 
+    public AudioClip openSound;
+    public AudioClip closeSound;
+    private AudioSource audioSource;
+
     public GameObject miniAppPanel;
     public bool panelOpened;
     private GameObject panel;
 
     public GameObject endPanel;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     public void openShop()
     {
@@ -26,6 +35,10 @@ public class Menu : MonoBehaviour
             shop.GetComponent<RectTransform>().localScale = new Vector3(1, 1, 1);
 
             shopOpened = true;
+
+            if (audioSource != null && openSound != null) {
+                audioSource.PlayOneShot(openSound);
+            }
         }
     }
     public void closeShop()
@@ -34,6 +47,9 @@ public class Menu : MonoBehaviour
         {
             Destroy(shop);
             shopOpened = false;
+            if (audioSource != null && closeSound != null) {
+                audioSource.PlayOneShot(closeSound);
+            }
         }
     }
 
@@ -62,7 +78,6 @@ public class Menu : MonoBehaviour
 
     public void openEndPanel()
     {
-        print("+++");
         endPanel.SetActive(true);
     }
 }

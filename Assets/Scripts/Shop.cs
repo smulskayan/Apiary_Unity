@@ -47,7 +47,7 @@ public class Shop : MonoBehaviour
     {
         allProductList.Clear();
         allProductList.Add(new Item("nectar", "nectar", 1, Item.TYPEPFOOD, 10, 2, 60f));
-        allProductList.Add(new Item("jarHoney", "jar_honey", 1, Item.TYPEPFOOD, 25, 1, 10f));
+        allProductList.Add(new Item("jar_honey", "jar_honey", 1, Item.TYPEPFOOD, 25, 1, 10f));
         allProductList.Add(new Item("seeds", "seeds", 1, Item.TYPEPFOOD, 10, 3, 10f));
         allProductList.Add(new Item("honey", "honey", 1, Item.TYPEPFOOD, 10, 4, 10f));
     }
